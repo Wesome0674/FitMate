@@ -4,6 +4,9 @@ import styles from './page.module.css'
 export default function Home() {
   return (
   <>
+  <head>
+    <title>FitMateAI | Home</title>
+  </head>
     <div style={{
       zIndex: -1,
       position: "fixed",
@@ -17,7 +20,7 @@ export default function Home() {
       objectFit='cover'
       />
     </div>
-    <h1>FitMateAI</h1>
+    <h1 className={`title-medium ${styles.title}`}>FitMateAI</h1>
   </>
   )
 }

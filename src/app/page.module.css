@@ -1,0 +1,7 @@
+.title{
+    background: var(--gradiant-primaire);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}

@@ -1,5 +1,195 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+:root {
+  --color-body: #425466; 
+  --primaire : #F69186;
+  --color-red: #f12711;
+  --bg-badge: #fff4f4;
+  --color-title: #0A2540;
+  --color-sucess: #31D0AA;
+  --bg-grey: #475569;
+  --start-blue: #0f172a;
+  --border-button: #e2e8f0;
+  --gradiant-primaire: linear-gradient(90deg, rgba(248,132,119,1) 0%,
+                                              rgba(241,39,17,0.7) 50%);
+}
+
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+/*light font*/
+
+.h4_light {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  
+}
+
+/*regular font*/
+
+.h1_regular {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  
+}
+
+.h2_regular {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  
+}
+
+.h3_regular {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  
+}
+
+.h4_regular {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  
+}
+
+.h5_regular {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  
+}
+
+.h6_regular {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.2px;
+  
+}
+
+/*Medium font*/
+
+.title-medium {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  letter-spacing: -0.2px;
+  
+}
+
+.subtitle-medium {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: -0.2px;
+  
+}
+
+.h1_medium {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  
+}
+
+.h2_medium {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+  
+}
+
+.h3_medium {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  
+}
+
+.h4_medium {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+  
+}
+
+.h5_medium {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  
+}
+
+.h6_medium {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: -0.2px;
+  
+}
+
+.p_medium {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.2px;
+  
+}
+
+.small-medium {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  
+}
+
+.h5-inter-medium {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  
+}
+
+/*bold font*/
+
+.h3-inter-sb {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  
+}
+
+.h5-inter-sb {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  
+}
+
