@@ -12,13 +12,13 @@ export default function Home() {
       zIndex: -1,
       position: "fixed",
       width: "100vw",
-      minHeight: "100vh"
+      minHeight: "100vh",
+      objectFit: 'cover',
     }}>
       <Image
       src="/bg2.svg"
       alt='bg'
       layout='fill'
-      objectFit='cover'
       />
     </div>
     <Nav />

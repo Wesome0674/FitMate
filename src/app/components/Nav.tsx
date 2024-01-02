@@ -39,8 +39,8 @@ const Nav = () => {
                      className={style.navinput}
                      placeholder="Appuyer sur ESPACE pour activer L'IA..."
                       />
-                      <div className='flex items-center'>
-                        <span>⌘R︎</span>
+                      <div className={`flex items-center ${style.navinputdetail}`}>
+                        <span className='mr-1'>⌘R︎</span>
                         <IoChevronForward />
                       </div>
                 </form>
