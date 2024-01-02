@@ -5,3 +5,37 @@
     -webkit-text-fill-color: transparent;
     
 }
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 82px;
+}
+
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    color: var(--color-body);
+    column-gap: 12px;
+    cursor: pointer;
+}
+
+.navinput {
+    color: var(--bg-grey);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    outline: none;
+    width: 240px; /* Ajustez la largeur selon vos besoins */
+}

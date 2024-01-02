@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Nav from './components/Nav'
 
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
       objectFit='cover'
       />
     </div>
-    <h1 className={`title-medium ${styles.title}`}>FitMateAI</h1>
+    <Nav />
+    {/* <h1 className={`title-medium ${styles.title}`}>FitMateAI</h1> */}
   </>
   )
 }

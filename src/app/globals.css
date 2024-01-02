@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
 @import url('https://fonts.cdnfonts.com/css/inter');
 
@@ -191,5 +195,9 @@
   line-height: 20px;
   letter-spacing: 0.2px;
   
+}
+
+li{
+  list-style: none;
 }
 
