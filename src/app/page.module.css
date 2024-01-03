@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 82px;
+    
 }
 
 @import url('https://fonts.cdnfonts.com/css/inter');
@@ -19,6 +19,7 @@
 .menu{
     display: flex;
     align-items: center;
+    column-gap: 35px;
 }
 
 .list{
@@ -46,4 +47,15 @@
     font-size: 12px;
     line-height: 20px;
     color: var(--color-body);
+}
+
+.navbutton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #171717;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+    border: 1px solid #E2E8F0;
+    padding: 6px 12px;
 }

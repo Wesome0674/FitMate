@@ -5,25 +5,21 @@ import style from '../page.module.css'
 
 const Nav = () => {
   return (
-    <div>
+    <div className='mx-auto w-full px-[86px] py-[12px]'>
         <nav className={style.navbar}>
             <div className={style.menu}>
-                <Image
-                 src="/logo.png"
-                 alt='logo'
-                 height='38'
-                 width='97'
-                 objectFit='cover'
-                />
+                <div className=' object-cover'>
+                    <Image
+                    src="/logo.png"
+                    alt='logo'
+                    height='38'
+                    width='97'
+                    />
+                </div>
                 <ul className={`h5_regular ${style.list}`}>
                     <li>Nos Catégories</li>
                     <li>About us</li>
-                    <li style={
-                        {
-                            display: 'flex',
-                            alignItems: 'center'
-                        }
-                    }>
+                    <li className='flex items-center'>
                         <span>AI</span>
                         <IoChevronDown />
                     </li>
@@ -32,7 +28,7 @@ const Nav = () => {
             <div className='flex items-center gap-x-[10px]'>
                 <form
                  action=""
-                 className='flex items-center gap-x-5'
+                 className='flex items-center gap-x-5 border-button'
                  >
                     <input
                      type="text"
@@ -44,7 +40,7 @@ const Nav = () => {
                         <IoChevronForward />
                       </div>
                 </form>
-                <button>Se connecter</button>
+                <button className={style.navbutton}>Se connecter</button>
             </div>
         </nav>
     </div>
