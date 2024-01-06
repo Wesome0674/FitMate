@@ -207,3 +207,6 @@ li{
   border-radius: 8px;
 }
 
+.largeur{
+  max-width: calc(100% - 164px);
+}

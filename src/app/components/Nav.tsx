@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import { IoChevronDown, IoChevronForward } from "react-icons/io5"
+import { IoChevronDown, IoChevronForward, IoSearch } from "react-icons/io5"
 import style from '../page.module.css'
 
 const Nav = () => {
   return (
-    <div className='mx-auto w-full px-[86px] py-[12px]'>
+    <div className='mx-auto w-full largeur  py-[12px] lg:px-5'>
         <nav className={style.navbar}>
             <div className={style.menu}>
-                <div className=' object-cover'>
+                <div>
                     <Image
                     src="/logo.png"
                     alt='logo'
@@ -30,11 +30,14 @@ const Nav = () => {
                  action=""
                  className='flex items-center gap-x-5 border-button'
                  >
-                    <input
-                     type="text"
-                     className={style.navinput}
-                     placeholder="Appuyer sur ESPACE pour activer L'IA..."
-                      />
+                    <div className='flex items-center gap-x-3'>
+                        <IoSearch size={20} color="#475569" />
+                        <input
+                        type="text"
+                        className={style.navinput}
+                        placeholder="Appuyer sur ESPACE pour activer L'IA..."
+                        />
+                    </div>
                       <div className={`flex items-center ${style.navinputdetail}`}>
                         <span className='mr-1'>⌘R︎</span>
                         <IoChevronForward />

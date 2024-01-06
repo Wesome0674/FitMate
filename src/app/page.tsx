@@ -15,11 +15,11 @@ export default function Home() {
       minHeight: "100vh",
       objectFit: 'cover',
     }}>
-      <Image
+     {/*  <Image
       src="/bg2.svg"
       alt='bg'
       layout='fill'
-      />
+      /> */}
     </div>
     <Nav />
     {/* <h1 className={`title-medium ${styles.title}`}>FitMateAI</h1> */}
