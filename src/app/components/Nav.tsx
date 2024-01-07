@@ -1,12 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
 import { IoChevronDown, IoChevronForward, IoSearch } from "react-icons/io5"
+import { RiMenu3Fill } from "react-icons/ri";
 import style from '../page.module.css'
 
 const Nav = () => {
   return (
-    <div className='mx-auto w-full largeur  py-[12px] lg:px-5'>
+    <div className='mx-auto w-full lg:max-w-[calc(100%-164px)]  py-[12px] px-8'>
         <nav className={style.navbar}>
+            <div className='md:hidden block'>
+                <RiMenu3Fill size={25} />
+            </div>
             <div className={style.menu}>
                 <div>
                     <Image
@@ -16,7 +20,7 @@ const Nav = () => {
                     width='97'
                     />
                 </div>
-                <ul className={`h5_regular ${style.list}`}>
+                <ul className={`h5_regular ${style.list} hidden md:flex`}>
                     <li>Nos Catégories</li>
                     <li>About us</li>
                     <li className='flex items-center'>
@@ -26,15 +30,18 @@ const Nav = () => {
                 </ul>
             </div>
             <div className='flex items-center gap-x-[10px]'>
+            <div className='block md:hidden'>
+                        <IoSearch size={20} color="#475569" />
+                    </div>
                 <form
                  action=""
-                 className='flex items-center gap-x-5 border-button'
+                 className='items-center gap-x-5 border-button hidden md:flex'
                  >
                     <div className='flex items-center gap-x-3'>
                         <IoSearch size={20} color="#475569" />
                         <input
                         type="text"
-                        className={style.navinput}
+                        className={` hidden lg:block lg:w-[240px] ${style.navinput}`}
                         placeholder="Appuyer sur ESPACE pour activer L'IA..."
                         />
                     </div>
@@ -43,7 +50,7 @@ const Nav = () => {
                         <IoChevronForward />
                       </div>
                 </form>
-                <button className={style.navbutton}>Se connecter</button>
+                <button className={` hidden sm:block ${style.navbutton}`}>Se connecter</button>
             </div>
         </nav>
     </div>

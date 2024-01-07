@@ -23,7 +23,6 @@
 }
 
 .list{
-    display: flex;
     align-items: center;
     color: var(--color-body);
     column-gap: 12px;
@@ -38,7 +37,6 @@
     line-height: 20px;
     letter-spacing: 0.2px;
     outline: none;
-    width: 240px; /* Ajustez la largeur selon vos besoins */
 }
 
 .navinputdetail{
